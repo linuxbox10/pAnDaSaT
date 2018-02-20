@@ -1,0 +1,24 @@
+<screen name="cfgplgConfig" flags="wfNoBorder" position="0,0" size="1920,1080" title="..::fReE iPtV bY pAnDaSaT tEaM::.." backgroundColor="#00000000">
+  <ePixmap position="0,0" zPosition="-1" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/FullHD/1920_1080backtv.png" alphatest="blend" />
+  <widget name="fittitle" position="79,203" zPosition="3" size="704,50" font="pndFont1;32" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" halign="center" />
+  <widget name="version" position="1330,1014" zPosition="3" size="565,57" font="pndFont1;24" foregroundColor="#ffffff" transparent="1" halign="right" />
+  <widget name="pndteam" position="128,1018" zPosition="3" size="829,48" font="pndFont1;22" foregroundColor="#00ff00" transparent="1" halign="left" />
+  <widget name="Maintainer" position="959,1040" halign="right" size="167,30" zPosition="3" font="pndFont1;24" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" />
+  <widget name="Maintainer2" position="1129,1044" halign="left" size="200,30" zPosition="3" font="pndFont1;24" foregroundColor="#ffff00" backgroundColor="#00000000" transparent="1" />
+  <widget name="Grafic" position="959,1014" halign="right" size="167,30" zPosition="3" font="pndFont1;24" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" />
+  <widget name="Grafic2" position="1129,1014" halign="left" size="200,30" zPosition="3" font="pndFont1;24" foregroundColor="#ffff00" backgroundColor="#00000000" transparent="1" />
+  <widget source="session.VideoPicture" render="Pig" position="861,225" size="889,450" backgroundColor="transparent" zPosition="3" />
+  <ePixmap position="71,830" zPosition="1" size="80,75" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/FullHD/red.png" alphatest="blend" />
+  <ePixmap position="907,830" zPosition="1" size="80,75" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/FullHD/yellow.png" alphatest="blend" />
+  <ePixmap position="506,830" zPosition="1" size="80,75" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/FullHD/green.png" alphatest="blend" />
+  <widget name="fitred" position="164,832" zPosition="3" size="264,50" font="pndFont2;40" foregroundColor="#ffffff" transparent="1" />
+  <widget name="fityellow" position="993,832" zPosition="3" size="264,50" font="pndFont2;40" foregroundColor="#ffffff" transparent="1" />
+  <widget name="fitgreen" position="595,832" zPosition="3" size="264,50" font="pndFont2;40" foregroundColor="#ffffff" transparent="1" />
+  <widget name="email" position="1202,684" zPosition="3" size="550,44" font="pndFont1;26" foregroundColor="#00ff00" transparent="1" halign="left" />
+  <ePixmap position="873,680" zPosition="1" size="325,75" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/donate.png" alphatest="blend" />
+  <eLabel name="label" zPosition="1" position="79,261" size="704,340" transparent="1" />
+ <!--   <widget name="config" position="79,261" size="704,340" itemHeight="40" font="Regular;34" zPosition="3" scrollbarMode="showOnDemand" />-->
+  <widget name="config" position="79,261" size="704,340" itemHeight="40" zPosition="3" scrollbarMode="showOnDemand" transparent="1" foregroundColorSelected="#ffff00" foregroundColor="#ffffff" /> 
+  <widget name="text" position="78,608" size="715,187" font="Regular;26" foregroundColor="#ff6600" transparent="1" zPosition="4" />
+  <ePixmap position="50,40" zPosition="1" size="314,119" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/FullHD/cblogo2.png" alphatest="blend" />
+</screen>

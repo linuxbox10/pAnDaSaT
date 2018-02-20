@@ -1,0 +1,15 @@
+<screen name="UpdaterFHD" flags="wfNoBorder" position="0,0" size="1920,1080" title="..::fReE iPtV bY pAnDaSaT tEaM::.." backgroundColor="#00000000">
+  <ePixmap position="0,0" zPosition="-1" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/FullHD/1920_1080backtv.png" alphatest="blend" />
+  <widget name="fittitle" position="79,203" zPosition="3" size="704,50" font="pndFont1;32" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" halign="center" />
+  <widget name="version" position="1330,1014" zPosition="3" size="565,57" font="pndFont1;24" foregroundColor="#ffffff" transparent="1" halign="right" />
+  <widget name="pndteam" position="128,1018" zPosition="3" size="829,48" font="pndFont1;22" foregroundColor="#00ff00" transparent="1" halign="left" />
+  <widget name="Maintainer" position="959,1040" halign="right" size="167,30" zPosition="3" font="pndFont1;24" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" />
+  <widget name="Maintainer2" position="1129,1044" halign="left" size="200,30" zPosition="3" font="pndFont1;24" foregroundColor="#ffff00" backgroundColor="#00000000" transparent="1" />
+  <widget name="Grafic" position="959,1014" halign="right" size="167,30" zPosition="3" font="pndFont1;24" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" />
+  <widget name="Grafic2" position="1129,1014" halign="left" size="200,30" zPosition="3" font="pndFont1;24" foregroundColor="#ffff00" backgroundColor="#00000000" transparent="1" />
+  <widget source="session.VideoPicture" render="Pig" position="861,225" size="889,450" backgroundColor="transparent" zPosition="3" />
+  <widget name="status" zPosition="3" position="72,671" size="713,48" transparent="1" font="pndFont1;38" foregroundColor="foreground" backgroundColor="background" valign="center" halign="center" noWrap="1" />
+  <widget source="progress" zPosition="3" render="Progress" position="85,495" size="694,51" transparent="1" borderWidth="0" />
+  <widget source="progresstext" render="Label" position="84,368" zPosition="3" font="pndFont1;22" halign="center" transparent="1" size="696,64" foregroundColor="foreground" backgroundColor="background" />
+  <ePixmap position="50,40" zPosition="1" size="314,119" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/FullHD/cblogo2.png" alphatest="blend" />
+</screen>

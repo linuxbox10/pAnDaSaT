@@ -1,0 +1,25 @@
+<screen name="SpeedtestpndFHD" flags="wfNoBorder" position="0,0" size="1920,1080" title="..::fReE iPtV bY pAnDaSaT tEaM::.." backgroundColor="#00000000">
+  <ePixmap position="0,0" zPosition="-1" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/FullHD/1920_1080backtv.png" alphatest="blend" />
+  <widget name="fittitle" position="79,203" zPosition="3" size="704,50" font="pndFont1;32" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" halign="center" />
+  <widget name="version" position="1330,1014" zPosition="3" size="565,57" font="pndFont1;24" foregroundColor="#ffffff" transparent="1" halign="right" />
+  <widget name="pndteam" position="128,1018" zPosition="3" size="829,48" font="pndFont1;22" foregroundColor="#00ff00" transparent="1" halign="left" />
+  <widget name="Maintainer" position="959,1040" halign="right" size="167,30" zPosition="3" font="pndFont1;24" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" />
+  <widget name="Maintainer2" position="1129,1044" halign="left" size="200,30" zPosition="3" font="pndFont1;24" foregroundColor="#ffff00" backgroundColor="#00000000" transparent="1" />
+  <widget name="Grafic" position="959,1014" halign="right" size="167,30" zPosition="3" font="pndFont1;24" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" />
+  <widget name="Grafic2" position="1129,1014" halign="left" size="200,30" zPosition="3" font="pndFont1;24" foregroundColor="#ffff00" backgroundColor="#00000000" transparent="1" />
+  <widget source="session.VideoPicture" render="Pig" position="861,225" size="889,450" backgroundColor="transparent" zPosition="3" />
+  <ePixmap position="71,830" zPosition="1" size="80,75" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/FullHD/red.png" alphatest="blend" />
+  <widget name="fitred" position="164,832" zPosition="3" size="264,50" font="pndFont2;40" foregroundColor="#ffffff" transparent="1" />
+  <widget name="text" position="75,276" zPosition="4" size="712,270" font="pndFont1;28" foregroundColor="#00cc99" transparent="1" halign="center" />
+  <widget name="ping" position="290,617" zPosition="4" size="333,50" font="pndFont1;24" foregroundColor="#00cc99" transparent="1" halign="left" />
+  <widget name="host" position="1139,683" zPosition="4" size="606,39" font="pndFont1;24" foregroundColor="#00cc99" transparent="1" halign="left" />
+  <widget name="ip" position="290,562" zPosition="4" size="506,50" font="pndFont1;24" foregroundColor="#00cc99" transparent="1" halign="left" />
+  <widget name="download" position="290,674" zPosition="4" size="200,45" font="pndFont1;24" foregroundColor="#00cc99" transparent="1" halign="left" />
+  <widget name="upload" position="761,675" zPosition="4" size="200,44" font="pndFont1;24" foregroundColor="#00cc99" transparent="1" halign="left" />
+  <widget name="fitping" position="19,617" zPosition="3" size="264,50" font="pndFont2;40" foregroundColor="#ffffff" transparent="1" halign="right" />
+  <widget name="fithost" position="974,674" zPosition="3" size="156,50" font="pndFont2;40" foregroundColor="#ffffff" transparent="1" halign="left" />
+  <widget name="fitip" position="19,561" zPosition="3" size="264,50" font="pndFont2;40" foregroundColor="#ffffff" transparent="1" halign="right" />
+  <widget name="fitdownload" position="19,669" zPosition="3" size="264,50" font="pndFont2;40" foregroundColor="#ffffff" transparent="1" halign="right" />
+  <widget name="fitupload" position="488,668" zPosition="3" size="264,50" font="pndFont2;40" foregroundColor="#ffffff" transparent="1" halign="right" />    
+  <ePixmap position="50,40" zPosition="1" size="314,119" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/FullHD/cblogo2.png" alphatest="blend" />
+</screen>

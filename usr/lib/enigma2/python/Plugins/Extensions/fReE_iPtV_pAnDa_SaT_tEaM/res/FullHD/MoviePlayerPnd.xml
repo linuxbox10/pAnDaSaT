@@ -1,0 +1,58 @@
+<screen name="MoviePlayerPndFHD" flags="wfNoBorder" position="0,0" size="0,800" title="..::fReE iPtV bY pAnDaSaT tEaM::.." backgroundColor="#00000000">
+  <ePixmap position="0,0" size="1924,250" zPosition="-1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/info_bg.png" />
+  <widget source="session.RecordState" render="Pixmap" position="959,59" size="38,38" zPosition="2" alphatest="blend">
+    <convert type="ConditionalShowHide">Blink</convert>
+  </widget>
+  
+  <eLabel position="174,42" size="2,110" backgroundColor="#ffffff" />
+  <widget source="session.CurrentService" render="Label" position="221,-1" size="710,30" font="Regular;28" backgroundColor="#2518252e" transparent="1">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+  <ePixmap position="215,58" size="677,16" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/prog_bg.png" zPosition="1" alphatest="on" />
+  <widget source="session.CurrentService" render="Progress" position="216,58" size="675,16" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/prog.png" zPosition="2" transparent="1">
+    <convert type="ServicePosition">Position</convert>
+  </widget>
+  <widget source="session.CurrentService" render="PositionGauge" position="216,58" size="675,16" zPosition="3" transparent="1">
+    <convert type="ServicePosition">Gauge</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="215,90" size="120,28" font="Regular;23" halign="left" backgroundColor="#2518252e" shadowColor="#000000" shadowOffset="-2,-2" transparent="1">
+    <convert type="ServicePosition">Position</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="335,90" size="435,30" font="Regular;23" halign="center" backgroundColor="#2518252e" shadowColor="#000000" shadowOffset="-2,-2" transparent="1">
+    <convert type="ServicePosition">Length</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="770,90" size="120,28" font="Regular;23" halign="right" backgroundColor="#2518252e" shadowColor="#000000" shadowOffset="-2,-2" transparent="1">
+    <convert type="ServicePosition">Remaining,Negate</convert>
+  </widget>
+  <eLabel position="933,41" size="2,110" backgroundColor="#ffffff" />
+  <widget source="global.CurrentTime" render="Label" position=" 960,10" size="120,24" font="Regular;24" backgroundColor="#25080808" shadowColor="#2518252e" shadowOffset="-2,-2" transparent="1">
+    <convert type="ClockToText">Format:%d.%m.%Y</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="1090,10" size=" 70,24" font="Regular;24" backgroundColor="#25080808" shadowColor="#2518252e" shadowOffset="-2,-2" transparent="1">
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/ico_dolby_off.png" position="975,97" size="57,20" zPosition="1" alphatest="blend" />
+  <widget source="session.CurrentService" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/ico_dolby_on.png" position="975,97" size="57,20" zPosition="2" alphatest="blend">
+    <convert type="ServiceInfo">IsMultichannel</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/ico_format_off.png" position="1052,97" size="36,20" zPosition="1" alphatest="blend" />
+  <widget source="session.CurrentService" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/ico_format_on.png" position="1052,97" size="36,20" zPosition="2" alphatest="blend">
+    <convert type="ServiceInfo">IsWidescreen</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="session.CurrentService" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/ico_hd_off.png" position="1108,97" size="29,20" zPosition="1" alphatest="blend">
+    <convert type="ServiceInfo">VideoWidth</convert>
+    <convert type="ValueRange">0,720</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="session.CurrentService" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/ico_hd_on.png" position="1108,97" size="29,20" zPosition="2" alphatest="blend">
+    <convert type="ServiceInfo">VideoWidth</convert>
+    <convert type="ValueRange">721,1980</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+
+<widget name="pixmap4a" position="962,66" size="300,25" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/playerbar.png" zPosition="3" transparent="1" alphatest="blend" />
+<widget name="panda100_60" position="31,56" size="100,60" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/panda100_60.png" zPosition="3" transparent="1" alphatest="blend" />
+
+</screen>

@@ -1,0 +1,30 @@
+<screen name="EXTRA" flags="wfNoBorder" position="center,center" size="1280,720" title="..::fReE iPtV bY pAnDaSaT tEaM::.." backgroundColor="#00000000">
+  <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/1280_720backtv.png" alphatest="blend" />
+  <ePixmap position="18,550" zPosition="1" size="80,75" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/red.png" alphatest="blend" />
+  <ePixmap position="659,550" zPosition="1" size="80,75" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/yellow.png" alphatest="blend" />
+  <ePixmap position="974,546" zPosition="1" size="80,75" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/blue.png" alphatest="blend" />
+  <ePixmap position="338,550" zPosition="1" size="80,75" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/green.png" alphatest="blend" />
+  <ePixmap position="1148,29" zPosition="1" size="80,75" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/grey.png" alphatest="blend" />
+  <widget source="session.VideoPicture" render="Pig" position="504,116" size="701,334" backgroundColor="transparent" zPosition="3" />
+  <widget name="fittitle" position="38,131" zPosition="3" size="435,37" font="pndFont1;22" foregroundColor="#3399ff" backgroundColor="#000000" transparent="1" halign="center" />
+  <widget name="fitred" position="105,555" zPosition="3" size="225,68" font="pndFont2;36" foregroundColor="#ffffff" transparent="1" />
+  <widget name="fitgreen" position="423,555" zPosition="3" size="225,68" font="pndFont2;36" foregroundColor="#ffffff" transparent="1" />
+  <widget name="fitgreen2" position="423,594" zPosition="3" size="225,68" font="pndFont2;36" foregroundColor="#ffffff" transparent="1" />
+  <widget name="fityellow" position="744,555" zPosition="3" size="225,34" font="pndFont2;32" foregroundColor="#ffffff" transparent="1" />
+  <widget name="fityellow2" position="745,594" zPosition="3" size="225,34" font="pndFont2;32" foregroundColor="#ffffff" transparent="1" />
+  <widget name="fitblue" position="1059,555" zPosition="3" size="225,34" font="pndFont2;36" foregroundColor="#ffffff" transparent="1" />
+  <widget name="fitblue2" position="1059,594" zPosition="3" size="225,34" font="pndFont2;36" foregroundColor="#ffffff" transparent="1" />
+  <widget name="fitgrey" position="922,35" zPosition="3" size="225,68" font="pndFont2;28" foregroundColor="#ffffff" transparent="1" halign="right" />
+  <widget name="version" position="828,683" zPosition="3" size="446,50" font="pndFont1;20" foregroundColor="#00ff00" transparent="1" halign="center" />
+  <widget name="pndteam" position="34,681" zPosition="3" size="522,44" font="pndFont1;20" foregroundColor="#00ff00" transparent="1" halign="center" />
+  <widget name="list" position="30,167" zPosition="3" size="454,330" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
+  <eLabel name="label" zPosition="1" position="30,167" size="454,330" transparent="1" />
+  <widget name="Maintainer" position="558,698" halign="right" size="112,22" zPosition="3" font="pndFont1;14" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" />
+  <widget name="Maintainer2" position="670,698" halign="left" size="155,22" zPosition="3" font="pndFont1;14" foregroundColor="#ffff00" backgroundColor="#00000000" transparent="1" />
+  <widget name="Grafic" position="558,676" halign="right" size="112,22" zPosition="3" font="pndFont1;14" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" />
+  <widget name="Grafic2" position="670,676" halign="left" size="155,22" zPosition="3" font="pndFont1;14" foregroundColor="#ffff00" backgroundColor="#00000000" transparent="1" />
+  <!--widget name="fitslz" position="499,464" zPosition="3" size="360,80" font="pndFont1;24" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" halign="left" /-->
+  <!--widget name="fitslz2" position="871,464" zPosition="3" size="360,80" font="pndFont1;24" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" halign="left" /-->
+  <!--widget name="text" position="30,167" zPosition="5" size="454,330" font="pndFont1;20" foregroundColor="#ffff00" /--> 
+  <ePixmap position="18,16" zPosition="1" size="275,85" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/fReE_iPtV_pAnDa_SaT_tEaM/res/HD/cblogo2.png" alphatest="blend" />
+</screen>
